@@ -1,1 +1,6 @@
-
+services:
+  - type: web # A Python web service named django-app running on a free instance
+    plan: free
+    name: plugins-server
+    runtime: typescript
+    repo: https://github.com/thehunterc/plugins-server
